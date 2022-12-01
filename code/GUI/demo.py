@@ -1,7 +1,5 @@
 import sys
 
-sys.path.append("..")
-sys.path.append("../Conv3D")
 from PyQt6.QtWidgets import QApplication, QWidget,QMainWindow, QFileDialog
 from PyQt6.QtCore import Qt
 from PyQt6 import uic

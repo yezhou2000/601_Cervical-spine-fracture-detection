@@ -1,8 +1,8 @@
 import os
 
 import torch
-from model import Conv3DNet
-from config import device, BATCH_SIZE
+from Conv3D.model import Conv3DNet
+from Conv3D.config import device, BATCH_SIZE
 import pandas as pd
 from torch.utils.data import DataLoader, Dataset
 
