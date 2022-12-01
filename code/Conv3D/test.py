@@ -34,7 +34,7 @@ class RSNADataset(Dataset):
 
 def predict_fracture(file_path):
     # Load checkpoint
-    PATH=r'C:\Users\ME\OneDrive\Classes\EC601\TeamProject\code\Conv3D\Conv3DNet.pt'
+    PATH=r'/Users/zhouye/Documents/GitHub/601_Cervical-spine-fracture-detection/code/Conv3D/Conv3DNet.pt'
     if torch.cuda.is_available():
         checkpoint = torch.load(PATH)
     else:
